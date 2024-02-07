@@ -1,38 +1,22 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slick-slider .slick-dots li.slick-active button:before {
+  border: none !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:before {
+  color: transparent !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.slick-dots li button:before {
+  width: 14.28px !important;
+  height: 14.28px !important;
+  border-radius: 50% !important;
+  border: 0.88px solid #b7b7b7 !important;
+  opacity: 1 !important;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slick-dots li.slick-active button:before {
+  color: #f59330 !important;
+  width: 14.28px !important;
+  height: 14.28px !important;
+  font-size: 17px !important;
+  top: -2px !important;
 }
